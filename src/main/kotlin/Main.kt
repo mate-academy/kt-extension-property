@@ -1,3 +1,4 @@
+private const val ADULT_AGE = 18
 val Person.isAdult: Boolean
-get() = age >= 18
+get() = age >= ADULT_AGE
 
