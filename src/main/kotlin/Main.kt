@@ -1,2 +1,3 @@
+val Person.isAdult: Boolean
+get() = age >= 18
 
-// provide your solution below
