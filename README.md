@@ -1,5 +1,7 @@
 # Extension property
 
+In this task, you will implement an isAdult Extension Property for the Person Class in Kotlin
+
 Suppose you have a `Person` class defined in your project or in a library you are using, which only includes basic
 information like `name` and `age`:
 
