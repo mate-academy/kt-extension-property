@@ -1,2 +1,3 @@
+private const val AGE_ADULT = 18
 
-// provide your solution below
+val Person.isAdult: Boolean get() = this.age >= AGE_ADULT
