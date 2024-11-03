@@ -1,4 +1,7 @@
-const val ADULT_AGE = 18
+private const val ADULT_AGE = 18
+
+val Person.isAdult: Boolean
+    get() = this.age >= ADULT_AGE
 
 fun main() {
     val person = Person("John Doe", 20)
@@ -9,6 +12,3 @@ fun main() {
         println("${person.name} is not an adult.")
     }
 }
-
-val Person.isAdult: Boolean
-    get() = this.age >= ADULT_AGE
