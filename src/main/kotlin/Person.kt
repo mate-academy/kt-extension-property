@@ -4,3 +4,5 @@
 // Provide your solution in the Main.kt class
 
 class Person(val name: String, val age: Int)
+    val Person.isAdult: Boolean
+        get() = this.age >= 18
