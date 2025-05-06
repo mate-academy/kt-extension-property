@@ -7,3 +7,4 @@ const val LEGAL_ADULT_AGE = 18
 class Person(val name: String, val age: Int)
     val Person.isAdult: Boolean
         get() = this.age >= LEGAL_ADULT_AGE
+
