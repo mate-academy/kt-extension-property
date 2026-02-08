@@ -1,2 +1,6 @@
 
-// provide your solution below
+
+const val EIGHTEEN = 18
+
+val Person.isAdult : Boolean
+get() = age >= EIGHTEEN
