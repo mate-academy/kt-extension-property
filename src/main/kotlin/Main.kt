@@ -1,2 +1,4 @@
+const val MAJORITY_AGE = 18
 
-// provide your solution below
+val Person.isAdult: Boolean
+    get() = age >= MAJORITY_AGE
