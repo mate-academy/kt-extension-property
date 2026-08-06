@@ -1,2 +1,4 @@
+private const val VALIDAGE = 18
 
-// provide your solution below
+val Person.isAdult: Boolean
+    get() = this.age >= VALIDAGE
