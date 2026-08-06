@@ -1,2 +1,3 @@
+const val ADULT_AGE = 18
 
-// provide your solution below
+val Person.isAdult get() = this.age >= ADULT_AGE
