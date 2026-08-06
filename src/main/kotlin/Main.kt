@@ -1,2 +1,9 @@
+const val AGE = 18
 
-// provide your solution below
+val Person.isAdult: Boolean
+    get() { if (age >= AGE) {
+        return true
+    } else {
+        return false
+    }    }
+
