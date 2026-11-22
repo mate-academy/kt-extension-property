@@ -1,2 +1,3 @@
+const val AGE_THRESHOLD = 18
 val Person.isAdult: Boolean
-get() = age >= 18
+    get() = age >= AGE_THRESHOLD
